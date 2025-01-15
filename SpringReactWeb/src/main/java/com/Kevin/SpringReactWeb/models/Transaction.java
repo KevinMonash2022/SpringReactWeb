@@ -27,7 +27,7 @@ public class Transaction {
     private BigDecimal totalPrice;
 
     @Enumerated(EnumType.STRING)
-    private TransactionType transactionType; // perchase, sale, return
+    private TransactionType transactionType; // purchase, sale, return
 
     @Enumerated(EnumType.STRING)
     private TransactionStatus transactionStatus; // pending, completed, cancelled
